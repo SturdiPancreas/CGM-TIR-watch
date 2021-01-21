@@ -12,6 +12,15 @@ This project began as a collaboration between Dana (T1D,xdrip+,openAPS,NS, Medtr
 
 CGM TIR watchface provides a clean & simple design that provides users with blood glucose values, trend arrows and deltas, a units remaining in an insulin pump reservoir, openAPS looping status, and a motivational time in range (TIR) ring that can be displayed six different ways.  This watchface can be configured to receive data from xDrip+ (Android only) AND Nightscout to allow glucose data to continue to be displayed without an internet connection OR with data collected from Nightscout only (cell service/internet connection required). Color schemes are fully customizable in the watch configuration settings. The watchface currently displays heart rate, stairs climbed, steps and a step goal progress bar, a phone notification count, watch battery level, bluetooth connectivity, and a watch Do Not Disturb indicator. The pump insulin units remaining are displayed a visual status bar similar to the step goal display.  The watchface is currently optimized for openAPS looping and xDrip+ as the local data source.  If you would like to use Nightscout only without xDrip+, select "Other/None" in the local collector setting.
 
+### Watchface Settings & Configurations
+
+**Local Collectors**
+Xdrip+ (Android) is currently the only supported local collector to allow the watch to continue to receive SGV (glucose) data without cell/internet service for the phone/watch.  We are interested in supporting other local collector options, but would need people who are willing to test those changes, as well as provide us with small samples of data returns to help make those changes.  
+
+**Nightscout URL**
+Make sure that you have included **https://** at the beginning of the URL, and don't include any additional information beyond **.com** 
+
+
 ```markdown
 Syntax highlighted code block
 
