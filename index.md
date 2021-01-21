@@ -14,10 +14,10 @@ CGM TIR watchface provides a clean & simple design that provides users with bloo
 
 ### Watchface Settings & Configurations
 
-**Local Collectors**
+**Local Collectors:**
 Xdrip+ (Android) is currently the only supported local collector to allow the watch to continue to receive SGV (glucose) data without cell/internet service for the phone/watch.  We are interested in supporting other local collector options, but would need people who are willing to test those changes, as well as provide us with small samples of data returns to help make those changes.  
 
-**Nightscout URL**
+**Nightscout URL:**
 Make sure that you have included **https://** at the beginning of the URL, and don't include any additional information beyond **.com** 
 
 
