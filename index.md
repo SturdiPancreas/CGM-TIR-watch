@@ -20,6 +20,16 @@ Xdrip+ (Android) is currently the only supported local collector to allow the wa
 **Nightscout URL:**
 Make sure that you have included **https://** at the beginning of the URL, and don't include any additional information beyond **.com** 
 
+**Color Choices:**
+Select from the 64-color choices available in Garmin's device specifications for each of the following:
+- **Background** 
+- **Foreground**
+- **Icon Color** (outlined when no value/goal not met, filled when goal met, unread notications, or active heart rate reading)
+- **Low** (used for glucose value and arrow, TIR ring, and urgent levels for pump reservoir, battery, stale data, and looping error)
+- **Normal** (used for glucose value and arrow, TIR ring) 
+- **High** (used for glucose value and arrow, TIR ring, and warning levels for pump reservoir, battery, stale data, and looping warning)
+
+![64ColorChoices](images/64ColorChoices.png)
 
 ```markdown
 Syntax highlighted code block
