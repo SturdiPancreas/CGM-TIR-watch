@@ -38,6 +38,8 @@ CGM TIR watchface provides a clean & simple design that provides users with bloo
 
 - **Midnight/Noon:** For 24-hour Circle Graph Summary, this means a midnight reset, so the watch will always be showing you your % TIR for that current date.  This will match what you are used to seeing in X-drip statistics.  For the 12 hour options (12-Hour Circle and 5 Minute Time-Oriented), this will include data from noon/midnight (whichever is more recent) to the current time.  Note: In the 5 Minute Time-Oriented mode, this will result in a partial ring, as there will be a gap from the current time clockise to noon/midnight.  
 
+**TIR Ring Width (1-30):** This value is expressed in pixels.  Changing this setting to 1 will give you an extremely thin ring.  Changing this setting to 30 will give you an extremely wide ring.  The default setting is 14.  
+
 **Stale Data Warning:** This value is expressed in minutes and represents the point at which data/icons should be re-drawn using your High color choice (see below) to indicate that the data is old.  
 
 **Stale Data Urgent:** This value is expressed in minutes and represents the point at which data/icons should be removed from the screen or re-drawn using your Low color choice (see below) to indicate that the data is extremely old.  
