@@ -7,6 +7,9 @@ This project began as a collaboration between Dana (T1D,xdrip+,openAPS,NS, Medtr
 ## Current Projects
 
 - [CGM TIR Garmin Watchface](https://apps.garmin.com/en-US/apps/38c13f6f-3f68-4a08-b58b-1e1089292a6f)
+  - [**Settings**](###-watchface-settings-&-configurations)
+  - [**Troubleshooting**](###-troubleshooting-steps)
+  - [**Contact Developer**](###-support-or-contact)
 
 ### Watchface Description
 
