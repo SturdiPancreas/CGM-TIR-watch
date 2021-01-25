@@ -7,9 +7,6 @@ This project began as a collaboration between Dana (T1D,xdrip+,openAPS,NS, Medtr
 ## Current Projects
 
 - [CGM TIR Garmin Watchface](https://apps.garmin.com/en-US/apps/38c13f6f-3f68-4a08-b58b-1e1089292a6f)
-  - [**Settings**](###-watchface-settings-&-configurations)
-  - [**Troubleshooting**](###-troubleshooting-steps)
-  - [**Contact Developer**](###-support-or-contact)
 
 ### Watchface Description
 
@@ -62,31 +59,8 @@ Select from the 64-color choices available in Garmin's device specifications for
 
 **Nightscout URL:** Make sure that you have included **https://** at the beginning of the URL, and don't include any additional information beyond **.com**.  If you enter your URL incorrectly, you may have to wait up to 5 additional minutes after fixing this setting for data to populate - please be patient!  
 
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and 
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SturdiPancreas/CGM-TIR-watch/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
 ### Support or Contact
 
 Use the _Contact Developer_ option for the watchface in the [Garmin Connect IQ Store](https://apps.garmin.com/en-US/apps/38c13f6f-3f68-4a08-b58b-1e1089292a6f)
+
+
