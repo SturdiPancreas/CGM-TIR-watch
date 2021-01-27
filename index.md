@@ -86,6 +86,8 @@ Select from the 64-color choices available in Garmin's device specifications for
 ### Have the developers considered...?
 
 ### What's up next in development?
+- CGM TIR Watchface supporting two T1Ds
+- Adding additional local collector options
 
 ### Support or Contact
 
