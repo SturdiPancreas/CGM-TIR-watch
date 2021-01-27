@@ -82,6 +82,7 @@ Select from the 64-color choices available in Garmin's device specifications for
    * If nightscout data is lost, check to see if you have cell/internet connection
 </details>
 
+
 ### Have the developers considered...?
 
 ### What's up next in development?
