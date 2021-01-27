@@ -55,7 +55,7 @@ Select from the 64-color choices available in Garmin's device specifications for
 
 ![64ColorChoices](images/64ColorChoices.png)
 
-### Troubleshooting Steps
+### Troubleshooting
 <details>
  <summary>Data won't load</summary>
   
@@ -73,7 +73,9 @@ Select from the 64-color choices available in Garmin's device specifications for
   2. If there is a gap in your data that you weren't expecting, you may have selected Noon/Midnight reset instead of Rolling/Continuous reset. Noon/Midnight reset will only show you data from 12a or 12p (whichever was more recent) to the current time, so you will see a gap in the data from the current time clockwise back to 12a or 12p.   
 </details>
 
+### Have the developers considered...?
 
+### What's up next in development?
 
 ### Support or Contact
 
