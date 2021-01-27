@@ -56,8 +56,24 @@ Select from the 64-color choices available in Garmin's device specifications for
 ![64ColorChoices](images/64ColorChoices.png)
 
 ### Troubleshooting Steps
+<details>
+ <summary>Data won't load</summary>
+  
+  ## Check Your Nighscout URL in Settings
+  1. Due to memory constraints, 12-24 hours of data must be returned from Nightscout before the watch can begin pulling from a local collector (if set), so if the watch won't load at all, this is the first thing you need to rule out.  
+  2. **Your Nightscout URL** is the only setting that you are **required** to update from the default settings.  
+     * Make sure that you have included **https://** at the beginning of the URL, and don't include any additional information beyond **.com**.  
+     * If you enter your URL incorrectly, you may have to wait up to 5 additional minutes after fixing this setting for data to populate - please be patient!  
+</details>
+<details>
+ <summary>TIR ring segments are incorrect</summary>
+  
+  ## Check Range & Ring Settings
+  1. Make sure that your Target Range High and Low values are in the correct units.  If you picked mg/dL, make sure your range values are expressed that way.  If you chose mmol/L, make sure your range values are expressed that way (the default settings will not make sense in mmol/L).  
+  2. If there is a gap in your data that you weren't expecting, you may have selected Noon/Midnight reset instead of Rolling/Continuous reset. Noon/Midnight reset will only show you data from 12a or 12p (whichever was more recent) to the current time, so you will see a gap in the data from the current time clockwise back to 12a or 12p.   
+</details>
 
-**Nightscout URL:** Make sure that you have included **https://** at the beginning of the URL, and don't include any additional information beyond **.com**.  If you enter your URL incorrectly, you may have to wait up to 5 additional minutes after fixing this setting for data to populate - please be patient!  
+
 
 ### Support or Contact
 
