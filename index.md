@@ -68,9 +68,18 @@ Select from the 64-color choices available in Garmin's device specifications for
 <details>
  <summary>TIR ring segments are incorrect</summary>
   
-  ## Check Range & Ring Settings
+  ## Check ange & Ring Settings
   1. Make sure that your Target Range High and Low values are in the correct units.  If you picked mg/dL, make sure your range values are expressed that way.  If you chose mmol/L, make sure your range values are expressed that way (the default settings will not make sense in mmol/L).  
   2. If there is a gap in your data that you weren't expecting, you may have selected Noon/Midnight reset instead of Rolling/Continuous reset. Noon/Midnight reset will only show you data from 12a or 12p (whichever was more recent) to the current time, so you will see a gap in the data from the current time clockwise back to 12a or 12p.   
+</details>
+<details>
+ <summary>Icons/values disappeared</summary>
+ 
+ ## Check Color Choices & Stale Data
+  1. If your background color is the same as any of your other color choices, those items will not be visable on the watchface.  If you choose a background color that is similar to your icon/foreground color, items may be present but difficult to see.   
+  2. If your data source has reached the Stale Data Urgent threshold that you set, icons and values from that data source will disappear from the watchface.  
+   * Check to make sure your watch is in range of your phone. 
+   * If nightscout data is lost, check to see if you have cell/internet connection
 </details>
 
 ### Have the developers considered...?
