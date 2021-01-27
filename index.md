@@ -22,9 +22,9 @@ CGM TIR watchface provides a clean & simple design that provides users with bloo
 
 **Units:** Choose mg/dL or mmol/L, depending on which units you would prefer to display on the watch.  
 
-**Target Range: Low:** The highest number that you would want the watch to consider a **"low"** glucose value.  Note: On some android devices, this may show as a number with several zeros after the decimal point - you can still enter a whole number as your value.  
+**Target Range: Low:** The lowest number you would like to be considered "in range".  Another way of thinking of this is everything below this number will be counted as a **"low"** glucose value.  Note: On some android devices, this may show as a number with several zeros after the decimal point - you can still enter a whole number as your value.  
 
-**Target Range: High:** The lowest number that you would want the watch to consider a **"high"** glucose value.  Note: On some android devices, this may show as a number with several zeros after the decimal point - you can still enter a whole number as your value. 
+**Target Range: High:** The highest number you would like to be considered "in range".  Another way of thinking of this is everything above this number will be counted as a **"high"** glucose value.  Note: On some android devices, this may show as a number with several zeros after the decimal point - you can still enter a whole number as your value. 
 
 **Time in Range Ring Type:** There are 3 choices in this setting, with two reset options for each, giving a total of 6 different TIR ring options.
 - **5 Minute Time-Oriented Segments:** This option begins drawing sections of the ring using your Low, Normal, and High color choices (see below) in five minute intervals.  The ring is drawn from noon/midnight, and the segments are oriented so that they correspond to the correct time location on an anolog watchface, so 90 degrees clockwise from noon/midnight would show a segment starting at 9am or 9pm.  24 hours is not an option for this ring type since it is oriented to match standard time-telling analog watch orientation.  
