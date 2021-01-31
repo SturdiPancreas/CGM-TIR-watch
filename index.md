@@ -26,14 +26,14 @@ CGM TIR watchface provides a clean & simple design that provides users with bloo
 
 **Target Range: High:** The highest number you would like to be considered "in range".  Another way of thinking of this is everything above this number will be counted as a **"high"** glucose value.  Note: On some android devices, this may show as a number with several zeros after the decimal point - you can still enter a whole number as your value. **The default value is 150 mg/dL**.  
 
-**Time in Range Ring Type:** There are 3 choices in this setting, with two reset options for each, giving a total of 6 different TIR ring options.  **The default setting is 24-Hour Circle Graph Summary**. 
+**Time in Range Ring Type:** There are 3 choices in this setting, with two reset options for each, giving a total of 6 different TIR ring options.  The default setting is **24-Hour Circle Graph Summary**. 
 - **5 Minute Time-Oriented Segments:** This option begins drawing sections of the ring using your Low, Normal, and High color choices (see below) in five minute intervals.  The ring is drawn from noon/midnight, and the segments are oriented so that they correspond to the correct time location on an anolog watchface, so 90 degrees clockwise from noon/midnight would show a segment starting at 9am or 9pm.  24 hours is not an option for this ring type since it is oriented to match standard time-telling analog watch orientation.  
 
 - **12-Hour Circle Graph Summary:** This option draws your TIR as a percentage of the overall circle for up to 12 hours of data.  Another way of thinking of this is that all of the segments from the Time-Oriented option above are instead grouped together as Low, Normal, and High, using your color choices (see below).  You can choose to show a continuous 12 hours, or only show from noon/midnight to the current time.  
 
 - **24-Hour Circle Graph Summary:** This option draws your your TIR as a percentage of the overall circle for up to 24 hours of data.  It will show your Low, Normal, and High values grouped together using your color choices (see below).  
 
-**TIR Ring Reset:** **The default setting is Rolling/Continuous**.  
+**TIR Ring Reset:** The default setting is **Rolling/Continuous**.  
 - **Rolling/Continous:** This setting will always show you the past 12/24 hours of data (based on your Ring Type choice).  Note: For the 5 Minute Time-Oriented Segments, everything drawn clockwise from the current time marker to noon/midnight is data from prior to noon/midnight.
 
 - **Midnight/Noon:** For 24-hour Circle Graph Summary, this means a midnight reset, so the watch will always be showing you your % TIR for that current date.  This will match what you are used to seeing in X-drip statistics.  For the 12 hour options (12-Hour Circle and 5 Minute Time-Oriented), this will include data from noon/midnight (whichever is more recent) to the current time.  Note: In the 5 Minute Time-Oriented mode, this will result in a partial ring, as there will be a gap from the current time clockise to noon/midnight.  
@@ -46,12 +46,12 @@ CGM TIR watchface provides a clean & simple design that provides users with bloo
 
 **Color Choices:**
 Select from the 64-color choices available in Garmin's device specifications for each of the following:
-- **Background** Default is Black. (Note: **Do not** make this the same as any of your other color settings)
-- **Foreground** Default is White. (This includes the outlines for the progress bars, time/date, and all (non-stale) numbers with the exception of glucose value)
-- **Icon Color** Default is Deep Sky Blue. (outlined when no value/goal not met, filled when goal met, unread notications, or active heart rate reading)
-- **SGV Low** Default is Red. (used for glucose value and arrow, TIR ring, and urgent levels for pump reservoir, battery, stale data, and looping error)
-- **SGV Normal** Default is Bright Green. (used for glucose value and arrow, TIR ring) 
-- **SGV High** Default is Yellow. (used for glucose value and arrow, TIR ring, and warning levels for pump reservoir, battery, stale data, and looping warning)
+- **Background** Default is **Black**. (Note: **Do not** make this the same as any of your other color settings)
+- **Foreground** Default is **White**. (This includes the outlines for the progress bars, time/date, and all (non-stale) numbers with the exception of glucose value)
+- **Icon Color** Default is **Deep Sky Blue**. (outlined when no value/goal not met, filled when goal met, unread notications, or active heart rate reading)
+- **SGV Low** Default is **Red**. (used for glucose value and arrow, TIR ring, and urgent levels for pump reservoir, battery, stale data, and looping error)
+- **SGV Normal** Default is **Bright Green**. (used for glucose value and arrow, TIR ring) 
+- **SGV High** Default is **Yellow*. (used for glucose value and arrow, TIR ring, and warning levels for pump reservoir, battery, stale data, and looping warning)
 
 ![64ColorChoices](images/64ColorChoices.png)
 
