@@ -51,7 +51,7 @@ Select from the 64-color choices available in Garmin's device specifications for
 - **Icon Color** Default is **Deep Sky Blue**. (outlined when no value/goal not met, filled when goal met, unread notications, or active heart rate reading)
 - **SGV Low** Default is **Red**. (used for glucose value and arrow, TIR ring, and urgent levels for pump reservoir, battery, stale data, and looping error)
 - **SGV Normal** Default is **Bright Green**. (used for glucose value and arrow, TIR ring) 
-- **SGV High** Default is **Yellow*. (used for glucose value and arrow, TIR ring, and warning levels for pump reservoir, battery, stale data, and looping warning)
+- **SGV High** Default is **Yellow**. (used for glucose value and arrow, TIR ring, and warning levels for pump reservoir, battery, stale data, and looping warning)
 
 ![64ColorChoices](images/64ColorChoices.png)
 
