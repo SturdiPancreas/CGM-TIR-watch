@@ -46,12 +46,6 @@ CGM TIR watchface provides a clean & simple design that provides users with bloo
 
 **Stale Data Urgent:** This value is expressed in minutes and represents the point at which data/icons should be removed from the screen or re-drawn using your Low color choice (see below) to indicate that the data is extremely old.  **The default setting is 31 minutes**.
 
-**Nightscout URL Secondary User:** (Optional)  If you would like to see data for a **2nd diabetic** on this watchface, enter that URL.  This is the URL for the data displayed on the **top** of the watch screen and for the **inner** TIR ring. No default value.  
-
-**Nightscout Token Secondary User:** (Optional) If your **2nd nightscout site** is set up to require token-based authentication, the watchface requires "readable" access to your nightscout site.  Enter just the Access Token (everything after _?token=_ in the Token URL).  No default value. 
-
-**Pump Max Reservoir Size Secondary User:** (Optional) This will be used as the total for the top bar display for the **2nd diabetic's** pump.  Depending on what makes most sense to you, you may consider entering your total reservoir size, or the units that typically remain after you prime your pump.  **The default value is 300 units**.  
-
 **Color Choices:**
 Select from the 64-color choices available in Garmin's device specifications for each of the following:
 - **Background** Default is **Black**. (Note: **Do not** make this the same as any of your other color settings)
@@ -63,20 +57,29 @@ Select from the 64-color choices available in Garmin's device specifications for
 
 ![64ColorChoices](images/64ColorChoices.png)
 
+**Nightscout URL Secondary User:** (Optional)  If you would like to see data for a **2nd diabetic** on this watchface, enter that URL.  This is the URL for the data displayed on the **top** of the watch screen and for the **inner** TIR ring. No default value.  
+
+**Nightscout Token Secondary User:** (Optional) If your **2nd nightscout site** is set up to require token-based authentication, the watchface requires "readable" access to your nightscout site.  Enter just the Access Token (everything after _?token=_ in the Token URL).  No default value. 
+
+**Pump Max Reservoir Size Secondary User:** (Optional) This will be used as the total for the top bar display for the **2nd diabetic's** pump.  Depending on what makes most sense to you, you may consider entering your total reservoir size, or the units that typically remain after you prime your pump.  **The default value is 300 units**.
+
 ### Troubleshooting
 <details>
  <summary>Data won't load</summary>
   
   ## Check Your Nighscout URL in Settings
   1. Due to memory constraints, 12-24 hours of data must be returned from Nightscout before the watch can begin pulling from a local collector (if set), so if the watch won't load at all, this is the first thing you need to rule out.  
-  2. **Your Nightscout URL** is the only setting that you are **required** to update from the default settings.  
+  2. **Your Primary User Nightscout URL** is the only setting that you are **required** to update from the default settings.  
      * Make sure that you have included **https://** at the beginning of the URL, and don't include any additional information beyond **.com**.  
-     * If you enter your URL incorrectly, you may have to wait up to 5 additional minutes after fixing this setting for data to populate - please be patient!  
+     * If you enter your URL incorrectly, you may have to wait up to 5 additional minutes after fixing this setting for data to populate - please be patient!
+  3. If you just switched from a Garmin activity or a watch app back to the watchface, you need to wait for the data to reload.  This can take up to 10 minutes for a single user and up to 15 minutes if using the watch to follow two diabetics.  
+  4. If you have entered 2 nightscout URLs to follow two diabetics using this watchface, it can take up to 15 minutes before data is current.  Due to extremely limited memory constraints of many Garmin watches, it is necessary to wait 5 minutes after pulling the 24-hour TIR data for the first user before it can be pulled for the 2nd user.  Then another 5 minutes must pass before the most recent SGV values can be pulled.
+
 </details>
 <details>
  <summary>TIR ring segments are incorrect</summary>
   
-  ## Check ange & Ring Settings
+  ## Check Range & Ring Settings
   1. Make sure that your Target Range High and Low values are in the correct units.  If you picked mg/dL, make sure your range values are expressed that way.  If you chose mmol/L, make sure your range values are expressed that way (the default settings will not make sense in mmol/L).  
   2. If there is a gap in your data that you weren't expecting, you may have selected Noon/Midnight reset instead of Rolling/Continuous reset. Noon/Midnight reset will only show you data from 12a or 12p (whichever was more recent) to the current time, so you will see a gap in the data from the current time clockwise back to 12a or 12p.   
 </details>
