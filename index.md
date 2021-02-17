@@ -1,5 +1,3 @@
-<body class="theme-base-08">
-
 ![CoverImage](images/CoverImage.png)
 
 # CGM TIR Project Overview
@@ -106,5 +104,3 @@ Select from the 64-color choices available in Garmin's device specifications for
 
 Use the _Contact Developer_ option for the watchface in the [Garmin Connect IQ Store](https://apps.garmin.com/en-US/apps/38c13f6f-3f68-4a08-b58b-1e1089292a6f)
 
-
-</body>
