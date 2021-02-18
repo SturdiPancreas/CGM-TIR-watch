@@ -7,7 +7,7 @@
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
-
+  <body class="sidebar-overlay">
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
 
@@ -34,5 +34,6 @@
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
+       </body>
   </div>
 </div>
