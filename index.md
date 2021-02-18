@@ -1,3 +1,8 @@
+---
+layout: page
+title: About
+---
+
 ![CoverImage](images/CoverImage.png)
 
 # CGM TIR Project Overview
