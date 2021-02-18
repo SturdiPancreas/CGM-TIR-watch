@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Project Overview
 ---
 
 ![CoverImage](images/CoverImage.png)
