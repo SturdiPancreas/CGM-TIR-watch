@@ -1,8 +1,7 @@
 ---
 layout: page
-title: Settings
+title: Watchface Settings
 ---
-# Watchface Settings & Configurations
 
 ## Local Glucose Data Source:
 Xdrip+ (Android) is currently the only supported local collector to allow the watch to continue to receive SGV (glucose) data without cell/internet service for the phone/watch.  This setting should be set to **"other/none"** if you **do not** use xdrip+.  We are interested in supporting other local collector options, but would need people who are willing to test those changes, as well as provide us with small samples of data formatting to help make those changes.  **The default setting is Xdrip+**.  
