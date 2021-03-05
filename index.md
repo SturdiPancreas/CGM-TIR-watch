@@ -1,7 +1,4 @@
----
-layout: page
-title: Project Overview
----
+
 
 ![CoverImage](images/CoverImage.png)
 
