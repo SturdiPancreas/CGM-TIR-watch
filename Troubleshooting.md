@@ -1,19 +1,29 @@
 ---
 layout: page
-title: Troubleshooting
+title: Watchface Troubleshooting
 ---
 
-### Troubleshooting
+# Troubleshooting
 <details>
  <summary>Data won't load</summary>
   
-  ## Check Your Nighscout URL in Settings
-  1. Due to memory constraints, 12-24 hours of data must be returned from Nightscout before the watch can begin pulling from a local collector (if set), so if the watch won't load at all, this is the first thing you need to rule out.  
-  2. **Your Primary User Nightscout URL** is the only setting that you are **required** to update from the default settings.  
+  **1. Check Your Nighscout URL in Settings**
+  
+  - Due to memory constraints, if you are in "Nightscout" or "Xdrip+ and Nightscout" mode, 12-24 hours of data must be returned from Nightscout before the watch can begin pulling from a local collector (if set), so if the watch won't load at all, start by double-checking that your URL was entered correctly in the watchface settings.
+  
      * Make sure that you have included **https://** at the beginning of the URL, and don't include any additional information beyond **.com**.  
+     
      * If you enter your URL incorrectly, you may have to wait up to 5 additional minutes after fixing this setting for data to populate - please be patient!
-  3. If you just switched from a Garmin activity or a watch app back to the watchface, you need to wait for the data to reload.  This can take up to 10 minutes for a single user and up to 15 minutes if using the watch to follow two diabetics.  
-  4. If you have entered 2 nightscout URLs to follow two diabetics using this watchface, it can take up to 15 minutes before data is current.  Due to extremely limited memory constraints of many Garmin watches, it is necessary to wait 5 minutes after pulling the 24-hour TIR data for the first user before it can be pulled for the 2nd user.  Then another 5 minutes must pass before the most recent SGV values can be pulled.
+   
+  - If you don't have nightscout, choose the "Xdrip+ without TIR" option.
+  
+  - If you would like the TIR ring displayed, you must set the **Primary User Nightscout URL**.  It is only necessary to include a Secondary URL if you intend to display data for two diabetics on the same watchface. 
+  
+  **2.   Be Patient!!**
+  
+  - If you just switched from a Garmin activity or a watch app back to the watchface, you need to wait for the data to reload.  This can take up to 10 minutes for a single user and up to 15 minutes if using the watch to follow two diabetics.  
+
+  - If you have entered 2 nightscout URLs to follow two diabetics using this watchface, it can take up to 15 minutes before data is current.  Due to extremely limited memory constraints of many Garmin watches, it is necessary to wait 5 minutes after pulling the 24-hour TIR data for the first user before it can be pulled for the 2nd user.  Then another 5 minutes must pass before the most recent SGV values can be pulled.
 
 </details>
 <details>
