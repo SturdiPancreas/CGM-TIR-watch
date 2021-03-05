@@ -9,6 +9,7 @@
   </div>
   <nav class="sidebar-nav">
     <a class="sidebar-nav-item{% if page.title == 'Home' %} active{% endif %}" href="{{ '/' | absolute_url }}">Home</a>
+       <body class="sidebar-overlay">
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -31,7 +32,8 @@
   <div class="sidebar-item">
     <p>
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+         
     </p>
-      
+      </body>
   </div>
 </div>
