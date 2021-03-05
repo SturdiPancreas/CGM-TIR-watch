@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: Home
+---
 
 ![CoverImage](images/CoverImage.png)
 
