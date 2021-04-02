@@ -3,7 +3,7 @@ layout: page
 title: Watchface Troubleshooting
 ---
 
-### Data won't load
+<h3>Data won't load</h3>
   
 <strong>1. Check Your Nighscout URL in Settings</strong>
   
