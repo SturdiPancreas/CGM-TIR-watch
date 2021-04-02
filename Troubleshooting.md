@@ -3,11 +3,9 @@ layout: page
 title: Watchface Troubleshooting
 ---
 
-# Troubleshooting
-<details>
- <summary>Data won't load</summary>
+## Data won't load
   
-**1. Check Your Nighscout URL in Settings**
+<strong>1. Check Your Nighscout URL in Settings</strong>
   
 - Due to memory constraints, if you are in "Nightscout" or "Xdrip+ and Nightscout" mode, 12-24 hours of data must be returned from Nightscout before the watch can begin pulling from a local collector (if set), so if the watch won't load at all, start by double-checking that your URL was entered correctly in the watchface settings.
   
