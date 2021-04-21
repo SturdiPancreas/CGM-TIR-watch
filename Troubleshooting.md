@@ -17,7 +17,17 @@ title: Watchface Troubleshooting
   
 - If you would like the TIR ring displayed, you must set the <strong>Primary User Nightscout URL</strong>.  It is only necessary to include a Secondary URL if you intend to display data for two diabetics on the same watchface. 
   
-<strong>2. Be Patient!!</strong>
+<strong>2. Check for Bluetooth Connection Between Watch and Phone</strong>
+- If the bluetooth symbol on the watch is the color you chose as "urgent", then it is not currently connected to the phone. 
+ 
+- There are some known Garmin issues for some users where the Garmin Connect IQ app interferes with Garmin Connect if both are running.  Force close Connect IQ. 
+  - Some users are able to also close Garmin Connect, but for others, it must remain open in the background. 
+
+- Some users lose connection when their phone connects to their car via bluetooth for phone calls. 
+
+- Make sure the watch is in range of the phone
+
+<strong>3. Be Patient!!</strong>
   
 - If you just switched from a Garmin activity or a watch app back to the watchface, you need to wait for the data to reload.  This can take up to 10 minutes for a single user and up to 15 minutes if using the watch to follow two diabetics.  
 
