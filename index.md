@@ -19,10 +19,10 @@ CGM TIR watchface provides a clean & simple design that provides users with bloo
 
 ### Have the developers considered...?
 -  <strong>Adding alerts/vibrations</strong>
-<p style="margin-left:15%; margin-right:15%;">Due to Garmin SDK limitations, alerts/vibrations cannot be added to a watchface.  There is the possibility of adding these in the future as a Garmin watch app,    which allows for additional funtionality.</p>  
+Due to Garmin SDK limitations, alerts/vibrations cannot be added to a watchface.  There is the possibility of adding these in the future as a Garmin watch app,    which allows for additional funtionality.
 
 -  <strong>Making the watch compatible with older models like the Forerunner 235 or with Garmin "bike computer" models</strong>
-<p style="margin-left:15%; margin-right:15%;">Older Garmin devices can only support the data request needed to display CGM data through an app, not a watchface.  We hope to develop a Garmin watch app in the future that may expand compatibility to older devices.  You can see a list of compatible devices for our current project by visiting the [Garmin Connect IQ Store](https://apps.garmin.com/en-US/apps/38c13f6f-3f68-4a08-b58b-1e1089292a6f) and clicking on the compatible devices tab.  While we have tested the listed devices in the simulator that Garmin provides in their SDK, we have found that the simulator does not always match actual watch function.</p>
+Older Garmin devices can only support the data request needed to display CGM data through an app, not a watchface.  We hope to develop a Garmin watch app in the future that may expand compatibility to older devices.  You can see a list of compatible devices for our current project by visiting the [Garmin Connect IQ Store](https://apps.garmin.com/en-US/apps/38c13f6f-3f68-4a08-b58b-1e1089292a6f) and clicking on the compatible devices tab.  While we have tested the listed devices in the simulator that Garmin provides in their SDK, we have found that the simulator does not always match actual watch function.
 
 ### What's up next in development?
 - Adding SAGE/CAGE indicators to the pump reservoir status bar
