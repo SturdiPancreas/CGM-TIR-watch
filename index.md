@@ -32,3 +32,5 @@ Older Garmin devices can only support the data request needed to display CGM dat
 
 Use the _Contact Developer_ option for the watchface in the [Garmin Connect IQ Store](https://apps.garmin.com/en-US/apps/38c13f6f-3f68-4a08-b58b-1e1089292a6f)
 
+Like what we're doing with this project? [Buy us a coffee](https://www.buymeacoffee.com/cgmtir) to acknowledge the time and work that goes into support and future development. 
+
