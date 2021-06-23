@@ -110,7 +110,7 @@ This is the number of hours **remaining** at which the SAGE pill will change col
 ### IOB Enable/Disable Primary User:
 This toggle is to turn on/off watchface display of Insulin on Board (IOB) from nightscout.  Due to the way that insulin decays and the retrival of data for the watch every five minutes, the IOB displayed on the watch will not always match nighscout exactly.  
 
-**The settings below are only necessary if you are using the watchface to monitor two diabetics (yourself and someone else or two other people)**
+## The settings below are only necessary if you are using the watchface to monitor two diabetics (yourself and someone else or two other people)
 
 ### Secondary User Nightscout URL: (Optional)
 If you would like to see data for a **2nd diabetic** on this watchface, enter that URL.  This is the URL for the data displayed on the **top** of the watch screen and for the **inner** TIR ring. No default value.  
