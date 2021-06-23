@@ -60,7 +60,7 @@ The default setting is **Rolling/Continuous**.
 This value is expressed in minutes and represents the point at which data/icons should be re-drawn using your High color choice (see below) to indicate that the data is old.  **The default setting is 16 minutes**.  
 
 ### Stale Data Urgent:
-This value is expressed in minutes and represents the point at which data/icons should be removed from the screen or re-drawn using your Low color choice (see below) to indicate that the data is extremely old.  **The default setting is 31 minutes**.
+This value is expressed in minutes and represents the point at which data/icons should be removed from the screen or re-drawn using your Low color choice (see below) to indicate that the data is extremely old.  **The default setting is 61 minutes**.
 
 ### Battery Warn Percent:
 This is the percent at which the watch battery icon and percetange change color to the user-set warning color (same as the high color).  **The default setting is 20%**.
@@ -68,11 +68,14 @@ This is the percent at which the watch battery icon and percetange change color 
 ### Battery Urgent Percent:
 This is the percent at which the watch battery icon and percentage change color to the user-set urgent color (same as the low color). **The default setting is 10%**. 
 
-### CAGE Total (Hours) Primary User:
+### CAGE Total (Hours) Primary User: 
+This is the total number of hours you prefer to use a cannula before changing it.  Example: If you choose 72 hours, then 70 hours after your last recorded pump site change, CAGE will show 2 hours remaining.  This requires entry of pump site changes into Nightscout.  **The default setting is 72 hours**. 
 
 ### CAGE Warn (Hours) Primary User:
+This is the number of hours **remaining** at which the CAGE pill will change color to the user-set warning color (same as the high color) and a numeric value of hours remaining will be displayed.  **The default setting is 12 hours**. 
 
 ### CAGE Urgent (Hours) Primary User:
+This is the number of hours **remaining** at which the CAGE pill will change color to the user-set urgent color (same as the low color) and a numeric value of hours remaining will be displayed.  **The default setting is 6 hours**.
 
 ### Pump Max Reservoir Size Primary User:
 This will be used as the total for the bottom bar display on the single-user watchface.  Depending on what makes most sense to you, you may consider entering your total reservoir size, or the units that typically remain after you prime your pump.  **The default value is 300 units**.  
@@ -83,11 +86,31 @@ This is the number of units at which the pump reservoir bar fill color will chan
 ### Pump Urgent Units Primary User:
 This is the number of units at which the pump reservoir bar fill color will change to the user-set urgent color (same as the low color).  
 
+### Pump Battery Warn Primary User (Volts):
+If your pump battery reports voltage back to Nightscout (e.g. x22 or x15 pumps), this is the voltage at which the watch would display a low battery icon over the Pump pill in the user-set warning color (same as the high color).  You can read more about pump battery display in Nighscout [here](https://loopkit.github.io/loopdocs/operation/features/battery/). 
+
+### Pump Battery Urgent Primary User (Volts):
+If your pump battery reports voltage back to Nightscout (e.g. x22 or x15 pumps), this is the voltage at which the watch would display a low battery icon over the Pump pill in the user-set urgent color (same as the low color).  
+
+### Pump Battery Warn Primary User (Percent):
+If your pump battery reports percentage back to Nightscout (e.g. x23 or x54 pumps with MySentry), this is the percentage at which the watch would display a low battery icon over the Pump pill in the user-set warning color (same as the high color). 
+
+### Pumpt Battery Urgent Primary User (Percent):
+If your pump battery reports percentage back to Nightscout (e.g. x23 or x54 pumps with MySentry), this is the percentage at which the watch would display a low battery icon over the Pump pill in the user-set urgent color (same as the low color). 
+
 ### SAGE Total (Hours) Primary User:
+This is the total number of hours you use a sensor before changing it.  Example: If you choose 240 hours, then 230 hours after your last sensor change, SAGE will show 10 hours remaining.  **The default setting is 240 hours**. 
 
 ### SAGE Warn (Hours) Primary User:
+This is the number of hours **remaining** at which the SAGE pill will change color to the user-set warning color (same as the high color) and a numeric value of hours remaining will be displayed.  **The default setting is 24 hours**. 
 
 ### SAGE Urgent (Hours) Primary User:
+This is the number of hours **remaining** at which the SAGE pill will change color to the user-set urgent color (same as the low color) and a numeric value of hours remaining will be displayed.  **The default setting is 6 hours**. 
+
+### IOB Enable/Disable Primary User:
+This toggle is to turn on/off watchface display of Insulin on Board (IOB) from nightscout.  Due to the way that insulin decays and the retrival of data for the watch every five minutes, the IOB displayed on the watch will not always match nighscout exactly.  
+
+**The settings below are only necessary if you are using the watchface to monitor two diabetics (yourself and someone else or two other people)**
 
 ### Secondary User Nightscout URL: (Optional)
 If you would like to see data for a **2nd diabetic** on this watchface, enter that URL.  This is the URL for the data displayed on the **top** of the watch screen and for the **inner** TIR ring. No default value.  
@@ -102,10 +125,13 @@ The the first or highest number you would like considered "low".  Another way of
 The first or lowest number you would like to be considered "high".  Another way of thinking of this this number and everything above it will be counted as a **"high"** glucose value.  Note: On some android devices, this may show as a number with several zeros after the decimal point - you can still enter a whole number as your value. **The default value is 150 mg/dL**. 
 
 ### Secondary User CAGE Total (Hours):
+This is the total number of hours the **2nd diabetic** prefers to use a cannula before changing it.  Example: If you choose 72 hours, then 70 hours after your last recorded pump site change, CAGE will show 2 hours remaining.  This requires entry of pump site changes into Nightscout.  **The default setting is 72 hours**. 
 
 ### Secondary User CAGE Warn (Hours):
+This is the number of hours **remaining** at which the CAGE pill will change color to the user-set warning color (same as the high color) and a numeric value of hours remaining will be displayed.  **The default setting is 12 hours**. 
 
 ### Secondary User CAGE Urgent (Hours):
+This is the number of hours **remaining** at which the CAGE pill will change color to the user-set urgent color (same as the low color) and a numeric value of hours remaining will be displayed.  **The default setting is 6 hours**.
 
 ### Secondary User Pump Max Reservoir Size: (Optional) 
 This will be used as the total for the top bar display for the **2nd diabetic's** pump.  Depending on what makes most sense to you, you may consider entering your total reservoir size, or the units that typically remain after you prime your pump.  **The default value is 300 units**.
@@ -117,10 +143,14 @@ This is the percentage at which the pump reservoir bar fill color will change to
 This is the percentage at which the pump reservoir bar fill color will change to the user-set urgent color (same as the low color).  
 
 ### Secondary User SAGE Total (Hours):
+This is the total number of hours the **2nd diabetic** uses a sensor before changing it.  Example: If you choose 240 hours, then 230 hours after your last sensor change, SAGE will show 10 hours remaining.  **The default setting is 240 hours**. 
 
 ### Secondary User SAGE Warn (Hours):
+This is the number of hours **remaining** at which the SAGE pill will change color to the user-set warning color (same as the high color) and a numeric value of hours remaining will be displayed.  **The default setting is 24 hours**. 
 
 ### Secondary User SAGE Urgent (Hours):
+This is the number of hours **remaining** at which the SAGE pill will change color to the user-set urgent color (same as the low color) and a numeric value of hours remaining will be displayed.  **The default setting is 6 hours**. 
 
-
+### Secondary User IOB Enable/Disable:
+This toggle is to turn on/off watchface display of Insulin on Board (IOB) for the **2nd diabetic** from nightscout.  Due to the way that insulin decays and the retrival of data for the watch every five minutes, the IOB displayed on the watch will not always match nighscout exactly.  
 
