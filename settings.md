@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Watchface Settings
+title: Watch Face Settings
 ---
 
 ### Data Source(s) Primary User:
