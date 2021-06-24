@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Watchface Troubleshooting
+title: Watch Face Troubleshooting
 ---
 
 <h3>Data won't load</h3>
